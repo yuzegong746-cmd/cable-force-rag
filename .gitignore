@@ -1,0 +1,30 @@
+# 环境变量（绝对不能上传！）
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+env/
+.venv/
+
+# 自动生成的向量库（太大，不上传）
+faiss_index/
+
+# 模型权重（文件太大，建议用 Git LFS 或单独分享）
+models/*.pth
+
+# 个人文档（隐私）
+data/*.pdf
+data/*.txt
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
